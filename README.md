@@ -10,13 +10,14 @@
 
 Minotauro is a defensive combat robot designed to compete in the Oshwdem 2023 competition. It is a lightweight 454g 4 wheel drive system that can be controlled by a PS4 controller and can be flipped over and still drive. The chasis was built using polycarbonate, and perforated aluminum ramps.
 
-# Circuit
+# Circuit Diagram
 
-Diagram:
+<div style="text-align:center"><img src="./images/CircuitDiagram.png" width="" height="150" /></div>
 
-![Alt text](images/ps3_controlled_car.png)
+[diagram source](https://github.com/un0038998/PS3ControlledCar/blob/main/Diagrams/PS3%20Controlled%20Car.png)
+<br>
 
-Components:
+# Robot Components:
 
 - **Lithium-Ion Batteries**: Two lithium-Ion Batteries 3.7V. The batteries are connected in series to reach a voltage of 7V. They are connected to a voltage regulator.
 - **voltage sensor regulator**: Used to decrease 7.2V to 6V (Maximum voltage accepted by DCmotors). Using a potentiometer we adjisted the voltage to the desired one and pass to the L293N Motor Driver.
@@ -26,9 +27,7 @@ Components:
 - **PS4 Contrller**: Connected via Bluetooth to the esp32 driver register and send as output the information recived by left&right joystick.
 -**DC Motor**: 4 Dc motor connected in parallel 2 (left) by 2 (right).
 
-code source: [here](https://github.com/un0038998/PS4Controller_Tank)
-
-diagram source: [here](https://github.com/un0038998/PS3ControlledCar/blob/main/Diagrams/PS3%20Controlled%20Car.png)
+<br>
 
 # Structure
 
