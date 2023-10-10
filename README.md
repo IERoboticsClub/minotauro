@@ -31,7 +31,6 @@ Potential improvements:
 
 - **Weapon**: Adding a weapon would allow us to attack other robots and have a better chance of winning when we are unable to push the other robot.
 
-# Images
 
 
 
