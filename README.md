@@ -12,6 +12,23 @@ Minotauro is a defensive combat robot designed to compete in the Oshwdem 2023 co
 
 # Circuit
 
+Diagram:
+
+![Alt text](images/ps3_controlled_car.png)
+
+Components:
+
+- **Lithium-Ion Batteries**: Two lithium-Ion Batteries 3.7V. The batteries are connected in series to reach a voltage of 7V. They are connected to a voltage regulator.
+- **voltage sensor regulator**: Used to decrease 7.2V to 6V (Maximum voltage accepted by DCmotors). Using a potentiometer we adjisted the voltage to the desired one and pass to the L293N Motor Driver.
+- **L293N Motor Driver**: This components allow us to regulate the speed and senso of rotation of the wheels. The driver recive power and supply it to 4 DC motor and the esp32 board. 
+- **ESP32 Board**: Recive power to the Motor Driver and output the information receaved by the PS4 controller joistick. 
+
+- **PS4 Contrller**: Connected via Bluetooth to the esp32 driver register and send as output the information recived by left&right joystick.
+-**DC Motor**: 4 Dc motor connected in parallel 2 (left) by 2 (right).
+
+code source: [here](https://github.com/un0038998/PS4Controller_Tank)
+
+diagram source: [here](https://github.com/un0038998/PS3ControlledCar/blob/main/Diagrams/PS3%20Controlled%20Car.png)
 
 # Structure
 
